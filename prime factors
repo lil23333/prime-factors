@@ -1,0 +1,18 @@
+function func (number) {
+let arr = []; 
+    function isPrime (n) {
+     for (let i = 2; i < n; i++){
+        if (n % i == 0) {
+            return false;
+        }}
+            return true;
+    }
+
+     for (let j = 2; j < number; j++){
+
+         if (number % j == 0 && isPrime(j)) {
+             arr.push(j);
+         }
+     }
+    return arr;
+} 
